@@ -4,11 +4,15 @@
 ### [1.1.0 Présentation de la Persistance](./module-1-introduction-persistance-donnees/1.1-introduction-persistance-des-donnees.md)
 ### [1.2.0 Types de Bases de Données](./module-1-introduction-persistance-donnees/1.2-types-base-de-donnees.md)
 
+---
+
 ## 2.0.0 Modélisation des Données avec Merise
 ### 2.1.0 Principes de Base de Merise
 ### 2.2.0 Modèle Conceptuel de Données (MCD)
 ### 2.3.0 Modèle Logique de Données (MLD)
 ### 2.4.0 Modèle Physique de Données (MPD)
+
+---
 
 ## 3.0.0 Normalisation et Formes Normales
 ### 3.1.0 Introduction à la Normalisation
@@ -19,6 +23,8 @@
 ### 3.6.0 Quatrième Forme Normale (4NF)
 ### 3.7.0 Cinquième Forme Normale (5NF) 
 ### 3.8.0 Application et Importance de la Normalisation
+
+---
 
 ## 4.0.0 Introduction au SQL: De Zéro aux Jointures
 ### 4.1.0 Fondamentaux du SQL
@@ -32,6 +38,8 @@
   - 4.5.2 Jointure Interne (INNER JOIN)
   - 4.5.3 Jointure Externe (LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN)
   - 4.5.4 Jointure Croisée (CROSS JOIN)
+
+---
 
 ## 5.0.0 PostgreSQL en Ligne de Commande
 ### 5.1.0 Installation et Configuration
