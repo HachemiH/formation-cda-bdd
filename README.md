@@ -1,7 +1,7 @@
 # formation-cda-bdd
 
 ## 1.0.0 Introduction à la Persistance des Données
-- 1.1.0 Présentation de la Persistance
+- [1.1.0 Présentation de la Persistance](./module-1-introduction-persistance-donnees/1.1-introduction-persistance-des-donnees.md)
 - 1.2.0 Types de Bases de Données
 
 ## 2.0.0 Modélisation des Données avec Merise
