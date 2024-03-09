@@ -17,14 +17,15 @@
 - 3.4.0 Troisième Forme Normale (3NF)
 - 3.5.0 Forme Normale de Boyce-Codd (BCNF)
 - 3.6.0 Quatrième Forme Normale (4NF)
-- 3.7.0 Cinquième Forme Normale (5NF) ou Forme Normale de Projection-Jointure (PJ/NF)
+- 3.7.0 Cinquième Forme Normale (5NF) 
 - 3.8.0 Application et Importance de la Normalisation
 
-## 4.0.0 SQL Pur
-- 4.1.0 Syntaxe SQL de Base
-- 4.2.0 Requêtes Avancées et Optimisation
-- 4.3.0 Gestion des Transactions et Concurrency
-- 4.4.0 Les Jointures SQL
+## 4.0.0 Introduction au SQL
+- 4.1.0 Les Bases du SQL : Sélection, Insertion, Mise à Jour, Suppression
+- 4.2.0 Filtrage et Tri des Données
+- 4.3.0 Fonctions Aggregées et Groupements
+- 4.4.0 Sous-requêtes
+- 4.5.0 Les Jointures : INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
 
 ## 5.0.0 PostgreSQL en Ligne de Commande
 - 5.1.0 Installation et Configuration
