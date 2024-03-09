@@ -2,7 +2,7 @@
 
 ## 1.0.0 Introduction à la Persistance des Données
 - [1.1.0 Présentation de la Persistance](./module-1-introduction-persistance-donnees/1.1-introduction-persistance-des-donnees.md)
-- 1.2.0 Types de Bases de Données
+- [1.2.0 Types de Bases de Données](./module-1-introduction-persistance-donnees/1.2-types-base-de-donnees.md)
 
 ## 2.0.0 Modélisation des Données avec Merise
 - 2.1.0 Principes de Base de Merise
