@@ -25,7 +25,7 @@
 - 4.2.0 Filtrage et Tri des Données
 - 4.3.0 Fonctions Aggregées et Groupements
 - 4.4.0 Sous-requêtes
-- 4.5.0 Les Jointures : INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+- 4.5.0 Les Jointures : INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, OUTER JOIN
 
 ## 5.0.0 PostgreSQL en Ligne de Commande
 - 5.1.0 Installation et Configuration
