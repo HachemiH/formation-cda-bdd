@@ -6,8 +6,8 @@
 
 ---
 
-## [2.0.0 Modélisation des Données avec Merise](./module-2-merise/2.1-introduction-merise.md)
-### 2.1.0 Principes de Base de Merise
+## 2.0.0 Modélisation des Données avec Merise
+### [2.1.0 Principes de Base de Merise](./module-2-merise/2.1-introduction-merise.md)
 ### 2.2.0 Modèle Conceptuel de Données (MCD)
 ### 2.3.0 Modèle Logique de Données (MLD)
 ### 2.4.0 Modèle Physique de Données (MPD)
