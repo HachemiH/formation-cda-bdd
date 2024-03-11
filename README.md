@@ -15,7 +15,7 @@
 ---
 
 ## 3.0.0 Normalisation et Formes Normales
-### 3.1.0 Introduction à la Normalisation
+### [3.1.0 Introduction à la Normalisation](./module-3-normalisation/3.1-introduction-normalisation.md)
 ### 3.2.0 Première Forme Normale (1NF)
 ### 3.3.0 Deuxième Forme Normale (2NF)
 ### 3.4.0 Troisième Forme Normale (3NF)
