@@ -12,6 +12,7 @@
 ### [2.3.0 Modèle Logique de Données (MLD)](./module-2-merise/2.3-mld.md)
 ### [2.4.0 Modèle Physique de Données (MPD)](./module-2-merise/2.4-mpd.md)
 ### [2.5.0 Outils pour la conception de base de données](./module-2-merise/2.5-outils.md)
+### [2.6.0 Travail Pratique](./module-2-merise/2.6.travail-pratique.md)
 
 ---
 
