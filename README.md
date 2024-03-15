@@ -18,7 +18,7 @@
 ### [3.1.0 Introduction à la Normalisation](./module-3-normalisation/3.1-introduction-normalisation.md)
 ### [3.2.0 Première Forme Normale (1NF)](./module-3-normalisation/3.2-premiere-forme-normale.md)
 ### [3.3.0 Deuxième Forme Normale (2NF)](./module-3-normalisation/3.3-deuxieme-forme-normale.md)
-### 3.4.0 Troisième Forme Normale (3NF)
+### [3.4.0 Troisième Forme Normale (3NF)](./module-3-normalisation/3.4-troisieme-forme-normale.md)
 ### 3.5.0 Forme Normale de Boyce-Codd (BCNF)
 ### 3.6.0 Quatrième Forme Normale (4NF)
 ### 3.7.0 Cinquième Forme Normale (5NF) 
