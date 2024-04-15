@@ -1,15 +1,14 @@
-# Correction de la Table `EmployésLangues` pour Respecter la 1NF
+# Correction de la Table `CoursMatériaux` pour Respecter la 1NF
 
-Pour appliquer la 1NF à la table `EmployésLangues`, il fallait simplement séparer les valeurs multi-valuées de la colonne `Langue` en lignes distinctes, en associant chaque employé à chaque langue parlée.
+Pour appliquer la 1NF à la table `CoursMatériaux`, il fallait simplement décomposer la colonne `Matériaux` contenant des listes de matériaux pour chaque cours en lignes distinctes, permettant ainsi une association unique entre un cours et chaque matériel requis.
 
-**Table `EmployésLangues` :**
+**Table `CoursMatériaux` :**
 
-| EmployéID | Nom     | Langue   |
-| --------- | ------- | -------- |
-| 1         | Alice   | Anglais  |
-| 1         | Alice   | Français |
-| 2         | Bob     | Espagnol |
-| 3         | Charlie | Anglais  |
-| 3         | Charlie | Allemand |
+| CoursID | Nom du Cours | Matériel           |
+| ------- | ------------ | ------------------ |
+| 1       | Math 101     | Livre de texte     |
+| 1       | Math 101     | Cahier d'exercices |
+| 2       | Histoire 202 | Livre de texte     |
+| 2       | Histoire 202 | Atlas              |
 
-Cette modification a permis d'éliminer les valeurs multi-valuées, en s'assurant que chaque ligne contienne des informations atomiques conformes aux exigences de la 1NF.
+Cette approche a transformé les valeurs multi-valuées en valeurs atomiques et chaque matériel requis par un cours est désormais représenté par une ligne distincte, alignant la structure de la table avec les principes de la 1NF. De plus, la colonne `Matériaux` est renommée en `Matériel`.
