@@ -10,4 +10,4 @@ CREATE TABLE public.include(
 )WITHOUT OIDS;
 ```
 
-Ici, on modifie le champ `id` par `product_id` dans un soucis de claretè.
+Ici, on modifie le champ `id` par `product_id` dans un soucis de clareté.
