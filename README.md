@@ -1,17 +1,19 @@
-# 3.9.3.2 Correction de la Table `Restaurants` pour Respecter la 3NF
+# 3.9.3.3 Correction de la Table `Cours` pour Respecter la 3NF
 
-Pour appliquer la 3NF à la table `Restaurants`, il était nécessaire de séparer les informations sur la localisation des détails spécifiques aux restaurants, car la `Ville` est fonctionnellement dépendante de l'`Adresse` et non directement de l'`ID_Restaurant`, formant une dépendance transitive.
+Pour aligner la table `Cours` avec la 3NF, il était essentiel de retirer la dépendance transitive en créant une table distincte pour les professeurs, car `Département_Professeur` est dépendant de `Professeur`, et non directement de `ID_Cours`.
 
-**Table `Restaurants`**
+**Table `Cours` :**
 
-| ID_Restaurant | Nom_Restaurant | Type_Cuisine | ID_Localisation |
-| ------------- | -------------- | ------------ | --------------- |
-| 1             | Chez Anne      | Française    | L1              |
-| 2             | Bella Napoli   | Italienne    | L2              |
+| ID_Cours | Titre_Cours   | ID_Professeur |
+| -------- | ------------- | ------------- |
+| C101     | Mathématiques | P1            |
+| C102     | Informatique  | P2            |
 
-**Table `Localisations`**
+**Table `Professeurs` :**
 
-| ID_Localisation | Adresse         | Ville |
-| --------------- | --------------- | ----- |
-| L1              | 10 rue de Paris | Paris |
-| L2              | 25 via Roma     | Rome  |
+| ID_Professeur | Professeur  | Département_Professeur |
+| ------------- | ----------- | ---------------------- |
+| P1            | Mme. Durant | Mathématiques          |
+| P2            | M. Dupont   | Informatique           |
+
+Cette structuration sépare les informations sur les cours des détails spécifiques aux professeurs, éliminant ainsi la dépendance transitive pour s'assurer que toutes les données de chaque table sont directement dépendantes de leurs clés primaires.
