@@ -1,19 +1,17 @@
-# 3.9.3.1 Correction de la Table `Employés` pour Respecter la 3NF
+# 3.9.3.2 Correction de la Table `Restaurants` pour Respecter la 3NF
 
-Pour appliquer la 3NF à la table `Employés`, il fallait dissocier les informations du département des détails des employés, car `Nom_Département` et `Adresse_Département` sont fonctionnellement dépendants de `ID_Département`, constituant une dépendance transitive par rapport à `ID_Employé`.
+Pour appliquer la 3NF à la table `Restaurants`, il était nécessaire de séparer les informations sur la localisation des détails spécifiques aux restaurants, car la `Ville` est fonctionnellement dépendante de l'`Adresse` et non directement de l'`ID_Restaurant`, formant une dépendance transitive.
 
-**Table `Employés` après correction :**
+**Table `Restaurants`**
 
-| ID_Employé | Nom_Employé | ID_Département |
-| ---------- | ----------- | -------------- |
-| 1          | Alice       | D1             |
-| 2          | Bob         | D2             |
+| ID_Restaurant | Nom_Restaurant | Type_Cuisine | ID_Localisation |
+| ------------- | -------------- | ------------ | --------------- |
+| 1             | Chez Anne      | Française    | L1              |
+| 2             | Bella Napoli   | Italienne    | L2              |
 
-**Table `Départements` après correction :**
+**Table `Localisations`**
 
-| ID_Département | Nom_Département | Adresse_Département       |
-| -------------- | --------------- | ------------------------- |
-| D1             | RH              | 123 Rue des Ressources    |
-| D2             | IT              | 456 Rue de l'Informatique |
-
-Cette restructuration a impliqué la création d'une table séparée `Départements` pour éliminer la dépendance transitive, assurant ainsi que chaque information soit directement dépendante de la clé primaire de sa table respective, conforme à la 3NF.
+| ID_Localisation | Adresse         | Ville |
+| --------------- | --------------- | ----- |
+| L1              | 10 rue de Paris | Paris |
+| L2              | 25 via Roma     | Rome  |
