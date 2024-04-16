@@ -11,9 +11,9 @@ Pour aligner la table `Cours` avec la 3NF, il était essentiel de retirer la dé
 
 **Table `Professeurs` :**
 
-| ID_Professeur | Professeur  | Département_Professeur |
-| ------------- | ----------- | ---------------------- |
-| P1            | Mme. Durant | Mathématiques          |
-| P2            | M. Dupont   | Informatique           |
+| ID_Professeur | Nom_Professeur | Département_Professeur |
+| ------------- | -------------- | ---------------------- |
+| P1            | Mme. Durant    | Mathématiques          |
+| P2            | M. Dupont      | Informatique           |
 
 Cette structuration sépare les informations sur les cours des détails spécifiques aux professeurs, éliminant ainsi la dépendance transitive pour s'assurer que toutes les données de chaque table sont directement dépendantes de leurs clés primaires.
