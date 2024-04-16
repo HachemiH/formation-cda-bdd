@@ -1,12 +1,11 @@
-# 2.7.3.2 Écrire le code SQL de la table `Customers`.
+# 2.7.3.3 Écrire le code SQL de la table `Orders`.
 
 ```sql
-CREATE TABLE Customers(
-	id                   SERIAL NOT NULL,
-	customer_lastname    VARCHAR (20) NOT NULL,
-	customer_firstname   VARCHAR (20) NOT NULL,
-	customer_mail        VARCHAR (60) NOT NULL,
-	customer_address     VARCHAR (60) NOT NULL,
-	CONSTRAINT Customers_PK PRIMARY KEY (id)
+CREATE TABLE Orders(
+	order_id      SERIAL NOT NULL,
+	total_price   FLOAT NOT NULL,
+	id            INT NOT NULL,
+	CONSTRAINT Orders_PK PRIMARY KEY (order_id),
+  CONSTRAINT Orders_Customers_FK FOREIGN KEY (id) REFERENCES public.Customers(id)
 )WITHOUT OIDS;
 ```
