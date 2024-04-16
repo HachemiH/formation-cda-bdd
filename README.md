@@ -1,4 +1,4 @@
-# Correction de la Table `CoursMatériaux` pour Respecter la 1NF
+# 3.9.1.2 Correction de la Table `CoursMatériaux` pour Respecter la 1NF
 
 Pour appliquer la 1NF à la table `CoursMatériaux`, il fallait simplement décomposer la colonne `Matériaux` contenant des listes de matériaux pour chaque cours en lignes distinctes, permettant ainsi une association unique entre un cours et chaque matériel requis.
 
