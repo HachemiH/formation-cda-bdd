@@ -1,7 +1,7 @@
 # 2.7.3.2 Écrire le code SQL de la table `Customers`.
 
 ```sql
-CREATE TABLE Customers(
+CREATE TABLE public.Customers(
 	id                   SERIAL NOT NULL,
 	customer_lastname    VARCHAR (20) NOT NULL,
 	customer_firstname   VARCHAR (20) NOT NULL,
