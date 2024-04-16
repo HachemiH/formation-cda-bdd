@@ -1,19 +1,19 @@
-# Correction de la Table `CommandesClients` pour Respecter la 2NF
+# Correction de la Table `InscriptionsActivités` pour Respecter la 2NF
 
-Pour appliquer la 2NF à la table `CommandesClients`, il fallait dissocier les informations du client des détails de la commande, car le nom et l'adresse du client dépendent uniquement de l'ID_Client, et non de la combinaison de l'ID_Commande et de l'ID_Client.
+Pour appliquer la 2NF à la table `InscriptionsActivités`, il fallait séparer les informations personnelles des participants des détails de leur inscription, car les informations `Nom_Participant` et `Âge_Participant` dépendent uniquement de l'`ID_Participant`, et non de la combinaison de l'`ID_Activité` et de l'`ID_Participant`.
 
-**Table `Clients` après correction :**
+**Table `Participants` après correction :**
 
-| ID_Client | Nom_Client   | Adresse_Client        |
-| --------- | ------------ | --------------------- |
-| 456       | Jeanne Voila | 123 Rue de Paris      |
-| 789       | Pierre Paul  | 456 Avenue des Fleurs |
+| ID_Participant | Nom_Participant | Âge_Participant |
+| -------------- | --------------- | --------------- |
+| 001            | Alice L'eau     | 12              |
+| 002            | Bob Zen         | 34              |
 
-**Table `Commandes` après correction :**
+**Table `Inscriptions` après correction :**
 
-| ID_Commande | ID_Client | Date_Commande |
-| ----------- | --------- | ------------- |
-| 1           | 456       | 2024-04-15    |
-| 2           | 789       | 2024-04-16    |
+| ID_Activité | ID_Participant | Nom_Activité |
+| ----------- | -------------- | ------------ |
+| A1          | 001            | Natation     |
+| B2          | 002            | Yoga         |
 
-Cette restructuration a divisé les données en deux tables distinctes pour respecter la 2NF, en assurant que chaque information soit pleinement fonctionnellement dépendante de la clé primaire, améliorant ainsi l'intégrité et la gestion des données.
+Cette correction implique la création de deux tables : une pour les détails des participants (`Participants`) et une autre pour leurs inscriptions aux activités (`Inscriptions`), garantissant ainsi que chaque donnée est pleinement fonctionnellement dépendante de la clé primaire complète, en conformité avec la 2NF.
