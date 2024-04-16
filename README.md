@@ -1,4 +1,4 @@
-# Correction de la Table `EmployésLangues` pour Respecter la 1NF
+# 3.9.1 Correction de la Table `EmployésLangues` pour Respecter la 1NF
 
 Pour appliquer la 1NF à la table `EmployésLangues`, il fallait simplement séparer les valeurs multi-valuées de la colonne `Langue` en lignes distinctes, en associant chaque employé à chaque langue parlée.
 
