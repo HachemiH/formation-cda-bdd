@@ -4,10 +4,10 @@ Pour appliquer la 2NF à la table `InscriptionsActivités`, il fallait séparer 
 
 **Table `Participants`**
 
-| ID_Participant | Nom_Participant | Âge_Participant |
-| -------------- | --------------- | --------------- |
-| 001            | Alice L'eau     | 12              |
-| 002            | Bob Zen         | 34              |
+| ID_Participant | Nom   | Prénom | Âge_Participant |
+| -------------- | ----- | ------ | --------------- |
+| 001            | L'eau | Alice  | 12              |
+| 002            | Zen   | Bob    | 34              |
 
 **Table `Inscriptions`**
 
