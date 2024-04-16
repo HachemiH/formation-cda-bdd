@@ -9,3 +9,5 @@ CREATE TABLE public.Orders(
   CONSTRAINT Orders_Customers_FK FOREIGN KEY (customer_id) REFERENCES public.Customers(id)
 )WITHOUT OIDS;
 ```
+
+Ici, on modifie le nom du champ `id` par `customer_id` dans un soucis de clareté.
