@@ -4,10 +4,10 @@ Pour appliquer la 2NF à la table `CommandesClients`, il fallait dissocier les i
 
 **Table `Clients`**
 
-| ID_Client | Nom_Client   | Adresse_Client        |
-| --------- | ------------ | --------------------- |
-| 456       | Jeanne Voila | 123 Rue de Paris      |
-| 789       | Pierre Paul  | 456 Avenue des Fleurs |
+| ID_Client | Nom   | Prénom | Adresse_Client        |
+| --------- | ----- | ------ | --------------------- |
+| 456       | Voila | Jeanne | 123 Rue de Paris      |
+| 789       | Paul  | Pierre | 456 Avenue des Fleurs |
 
 **Table `Commandes`**
 
