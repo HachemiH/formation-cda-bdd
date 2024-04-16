@@ -1,10 +1,11 @@
-# 2.7.2.1 Transformer le MCD en MLD.
+# 2.7.3.1 Écrire le code SQL de la table `Products`.
 
-![](./assets/solution.png)
-
-Dans ce MLD, on voit que :
-
-- La relation `include` (`many-to-many`) est devenue une table d'association
-  - Elle contient 2 clés primaires (`order_id` et `id`. Ici `id` correspond à `id` de l'entité `Products`).
-- La table `Orders` contient une nouvelle clé étrangère `id` qui correspond à `id` de l'entité `Customers`.
-- Les types de données sont affichés pour chaques entités.
+```sql
+CREATE TABLE Products(
+	id              SERIAL NOT NULL,
+	product_name    VARCHAR (50) NOT NULL,
+	unitary_price   FLOAT NOT NULL,
+	quantity        INT NOT NULL,
+	CONSTRAINT Products_PK PRIMARY KEY (id)
+)WITHOUT OIDS;
+```
