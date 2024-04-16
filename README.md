@@ -25,6 +25,7 @@
 ### [3.6.0 Quatrième Forme Normale (4NF)](./module-3-normalisation/3.6-quatrieme-forme-normale.md)
 ### 3.7.0 Cinquième Forme Normale (5NF) 
 ### 3.8.0 Application et Importance de la Normalisation
+### [3.9.0 Travail Pratique](./module-3-normalisation/3.9-travail-pratique.md)
 
 ---
 
