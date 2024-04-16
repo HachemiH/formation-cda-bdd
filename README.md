@@ -2,14 +2,14 @@
 
 Pour appliquer la 2NF à la table `VentesProduits`, il fallait séparer les informations relatives au produit des détails de la vente, car le `Nom_Produit` dépend uniquement de l'`ID_Produit` et non de la combinaison de l'`ID_Vente` et de l'`ID_Produit`.
 
-**Table `Produits` après correction :**
+**Table `Produits`**
 
 | ID_Produit | Nom_Produit   |
 | ---------- | ------------- |
 | 100        | Café Arabica  |
 | 101        | Thé Earl Grey |
 
-**Table `Ventes` après correction :**
+**Table `Ventes`**
 
 | ID_Vente | ID_Produit | Quantité | Date_Vente |
 | -------- | ---------- | -------- | ---------- |
