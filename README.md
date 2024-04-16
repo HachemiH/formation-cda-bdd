@@ -1,6 +1,6 @@
 # 2.7.1.7 Écrire le dictionnaire de données.
 
-Voici le dictionnaire de données à produire pour cette application :
+Voici le dictionnaire de données à produire pour ce MCD :
 
 | Nom de l'attribut  | Type de donnée       | Contrainte | Taille | Exemple                                                                    |
 | ------------------ | -------------------- | ---------- | ------ | -------------------------------------------------------------------------- |
