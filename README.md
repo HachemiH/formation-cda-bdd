@@ -1,19 +1,19 @@
-# Correction de la Table `CoursUniversitaires` pour Respecter la 2NF
+# Correction de la Table `CommandesClients` pour Respecter la 2NF
 
-Pour appliquer la 2NF à la table `CoursUniversitaires`, il fallait éliminer la dépendance partielle en séparant les informations de l'enseignant dans une nouvelle table, car l'enseignant est uniquement dépendant de l'ID du cours et non de la combinaison de l'ID du cours et du département.
+Pour appliquer la 2NF à la table `CommandesClients`, il fallait dissocier les informations du client des détails de la commande, car le nom et l'adresse du client dépendent uniquement de l'ID_Client, et non de la combinaison de l'ID_Commande et de l'ID_Client.
 
-**Table `Cours` après correction :**
+**Table `Clients` après correction :**
 
-| ID_Cours | Département   | Nom_Cours     |
-| -------- | ------------- | ------------- |
-| 101      | Informatique  | Programmation |
-| 102      | Mathématiques | Algèbre       |
+| ID_Client | Nom_Client   | Adresse_Client        |
+| --------- | ------------ | --------------------- |
+| 456       | Jeanne Voila | 123 Rue de Paris      |
+| 789       | Pierre Paul  | 456 Avenue des Fleurs |
 
-**Table `EnseignantsCours` après correction :**
+**Table `Commandes` après correction :**
 
-| ID_Cours | Enseignant  |
-| -------- | ----------- |
-| 101      | M. Dupont   |
-| 102      | Mme. Durand |
+| ID_Commande | ID_Client | Date_Commande |
+| ----------- | --------- | ------------- |
+| 1           | 456       | 2024-04-15    |
+| 2           | 789       | 2024-04-16    |
 
-La correction a impliqué la création de deux tables séparées pour respecter la 2NF : une pour les cours (`Cours`) (sans dépendance partielle) et une pour associer chaque cours à son enseignant (`EnseignantsCours`), garantissant que toutes les informations dépendent pleinement de la clé primaire.
+Cette restructuration a divisé les données en deux tables distinctes pour respecter la 2NF, en assurant que chaque information soit pleinement fonctionnellement dépendante de la clé primaire, améliorant ainsi l'intégrité et la gestion des données.
