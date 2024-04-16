@@ -1,4 +1,4 @@
-# Correction de la Table `PatientsConditions` pour Respecter la 1NF
+# 3.9.1.3 Correction de la Table `PatientsConditions` pour Respecter la 1NF
 
 Pour appliquer la 1NF à la table `PatientsConditions`, il fallait simplement séparer les conditions de santé listées ensemble pour certains patients en lignes distinctes, garantissant une association unique entre un patient et chaque condition de santé.
 
