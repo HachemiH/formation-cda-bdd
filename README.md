@@ -2,14 +2,14 @@
 
 Pour appliquer la 2NF à la table `CommandesClients`, il fallait dissocier les informations du client des détails de la commande, car le nom et l'adresse du client dépendent uniquement de l'ID_Client, et non de la combinaison de l'ID_Commande et de l'ID_Client.
 
-**Table `Clients` après correction :**
+**Table `Clients`**
 
 | ID_Client | Nom_Client   | Adresse_Client        |
 | --------- | ------------ | --------------------- |
 | 456       | Jeanne Voila | 123 Rue de Paris      |
 | 789       | Pierre Paul  | 456 Avenue des Fleurs |
 
-**Table `Commandes` après correction :**
+**Table `Commandes`**
 
 | ID_Commande | ID_Client | Date_Commande |
 | ----------- | --------- | ------------- |
