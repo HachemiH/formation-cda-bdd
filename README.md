@@ -2,14 +2,14 @@
 
 Pour appliquer la 2NF à la table `InscriptionsActivités`, il fallait séparer les informations personnelles des participants des détails de leur inscription, car les informations `Nom_Participant` et `Âge_Participant` dépendent uniquement de l'`ID_Participant`, et non de la combinaison de l'`ID_Activité` et de l'`ID_Participant`.
 
-**Table `Participants` après correction :**
+**Table `Participants`**
 
 | ID_Participant | Nom_Participant | Âge_Participant |
 | -------------- | --------------- | --------------- |
 | 001            | Alice L'eau     | 12              |
 | 002            | Bob Zen         | 34              |
 
-**Table `Inscriptions` après correction :**
+**Table `Inscriptions`**
 
 | ID_Activité | ID_Participant | Nom_Activité |
 | ----------- | -------------- | ------------ |
