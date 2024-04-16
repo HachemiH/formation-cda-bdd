@@ -1,4 +1,4 @@
-# Correction de la Table `VentesProduits` pour Respecter la 2NF
+# 3.9.2.1 Correction de la Table `VentesProduits` pour Respecter la 2NF
 
 Pour appliquer la 2NF à la table `VentesProduits`, il fallait séparer les informations relatives au produit des détails de la vente, car le `Nom_Produit` dépend uniquement de l'`ID_Produit` et non de la combinaison de l'`ID_Vente` et de l'`ID_Produit`.
 
