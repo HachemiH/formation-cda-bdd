@@ -26,6 +26,7 @@
 ### 3.7.0 Cinquième Forme Normale (5NF) 
 ### 3.8.0 Application et Importance de la Normalisation
 ### [3.9.0 Travail Pratique](./module-3-normalisation/3.9-travail-pratique.md)
+  - [3.9.1 Première Forme Normale](./module-3-normalisation/3.9-travail-pratique.md#391-première-forme-normale-1nf)
 
 ---
 
