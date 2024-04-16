@@ -1,4 +1,4 @@
-# Correction de la Table `InscriptionsActivités` pour Respecter la 2NF
+# 3.9.2.3 Correction de la Table `InscriptionsActivités` pour Respecter la 2NF
 
 Pour appliquer la 2NF à la table `InscriptionsActivités`, il fallait séparer les informations personnelles des participants des détails de leur inscription, car les informations `Nom_Participant` et `Âge_Participant` dépendent uniquement de l'`ID_Participant`, et non de la combinaison de l'`ID_Activité` et de l'`ID_Participant`.
 
