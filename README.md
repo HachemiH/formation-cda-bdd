@@ -1,4 +1,4 @@
-# Correction de la Table `CommandesClients` pour Respecter la 2NF
+# 3.9.2.2 Correction de la Table `CommandesClients` pour Respecter la 2NF
 
 Pour appliquer la 2NF à la table `CommandesClients`, il fallait dissocier les informations du client des détails de la commande, car le nom et l'adresse du client dépendent uniquement de l'ID_Client, et non de la combinaison de l'ID_Commande et de l'ID_Client.
 
