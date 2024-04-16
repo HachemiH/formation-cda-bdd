@@ -2,14 +2,14 @@
 
 Pour appliquer la 3NF à la table `Employés`, il fallait dissocier les informations du département des détails des employés, car `Nom_Département` et `Adresse_Département` sont fonctionnellement dépendants de `ID_Département`, constituant une dépendance transitive par rapport à `ID_Employé`.
 
-**Table `Employés` après correction :**
+**Table `Employés`**
 
 | ID_Employé | Nom_Employé | ID_Département |
 | ---------- | ----------- | -------------- |
 | 1          | Alice       | D1             |
 | 2          | Bob         | D2             |
 
-**Table `Départements` après correction :**
+**Table `Départements`**
 
 | ID_Département | Nom_Département | Adresse_Département       |
 | -------------- | --------------- | ------------------------- |
