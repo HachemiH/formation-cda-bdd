@@ -25,22 +25,15 @@
 ### [3.5.0 Forme Normale de Boyce-Codd (BCNF)](./module-3-normalisation/3.5-bcnf.md)
 ### [3.6.0 Quatrième Forme Normale (4NF)](./module-3-normalisation/3.6-quatrieme-forme-normale.md)
 ### [3.7.0 Cinquième Forme Normale (5NF)](./module-3-normalisation/3.7-cinquieme-forme-normale.md)
-### 3.8.0 Application et Importance de la Normalisation
 
 ---
 
 ## 4.0.0 Introduction au SQL: De Zéro aux Jointures
 ### 4.1.0 Fondamentaux du SQL
-  - 4.1.1 Syntaxe de Base
-  - 4.1.2 Sélection, Insertion, Mise à jour, et Suppression
 ### 4.2.0 Filtrage et Tri des Résultats
 ### 4.3.0 Agrégation et Fonctions
 ### 4.4.0 Gestion des Transactions et Compréhension des Index
 ### 4.5.0 Les Jointures SQL
-  - 4.5.1 Principe des Jointures
-  - 4.5.2 Jointure Interne (INNER JOIN)
-  - 4.5.3 Jointure Externe (LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN)
-  - 4.5.4 Jointure Croisée (CROSS JOIN)
 
 ---
 
