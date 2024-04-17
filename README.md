@@ -28,7 +28,7 @@
 
 ---
 
-## 4.0.0 Introduction au SQL: De Zéro aux Jointures
+## 4.0.0 Introduction au SQL
 ### 4.1.0 Fondamentaux du SQL
 ### 4.2.0 Filtrage et Tri des Résultats
 ### 4.3.0 Agrégation et Fonctions
