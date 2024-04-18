@@ -29,7 +29,7 @@
 ---
 
 ## 4.0 Introduction au SQL
-### 4.1 Fondamentaux du SQL
+### [4.1 Fondamentaux du SQL](./module-4-introduction-sql/4.1-fondamentaux-sql.md)
 ### 4.2 Filtrage et Tri des Résultats
 ### 4.3 Agrégation et Fonctions
 ### 4.4 Gestion des Transactions et Compréhension des Index
