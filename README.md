@@ -32,7 +32,7 @@
 ### [4.1 Fondamentaux du SQL](./module-4-introduction-sql/4.1-fondamentaux-sql.md)
 ### [4.2 Filtrage et Tri des Résultats](./module-4-introduction-sql/4.2-filtrage-et-tri-sql.md)
 ### [4.3 Agrégation et Fonctions](./module-4-introduction-sql/4.3-agregation-fonctions-sql.md)
-### 4.4 Gestion des Transactions et Compréhension des Index
+### [4.4 Gestion des Transactions et Compréhension des Index](./module-4-introduction-sql/4.4-transactions-indexes-sql.md)
 ### 4.5 Les Jointures SQL
 
 ---
