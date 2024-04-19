@@ -40,7 +40,7 @@
 ## 5 PostgreSQL en Ligne de Commande
 ### [5.1 Installation et Configuration](./module-5-postgresql/5.1-installation-postgresql.md)
 ### [5.2 Connexion et Gestion des Utilisateurs dans PostgreSQL](./module-5-postgresql/5.2-connexion-gestion-utilisateurs-postgresql.md)
-### 5.3 Création et Gestion des Bases de Données
+### [5.3 Création et Gestion des Bases de Données](./module-5-postgresql/5.3-creation-gestion-bdd-postgresql.md)
 ### 5.4 Utilisation des Commandes SQL Basiques dans PostgreSQL
 ### 5.5 Fonctions Avancées et Procédures Stockées
 ### 5.6 Sécurité des Bases de Données avec PostgreSQL
