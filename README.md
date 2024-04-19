@@ -38,7 +38,7 @@
 ---
 
 ## 5.0 PostgreSQL en Ligne de Commande
-### 5.1 Installation et Configuration
+### [5.1 Installation et Configuration](./module-5-postgresql/5.1-installation-postgresql.md)
 ### 5.2 Création et Gestion des Bases de Données
 ### 5.3 Utilisation des Commandes SQL Basiques dans PostgreSQL
 ### 5.4 Fonctions Avancées et Procédures Stockées
