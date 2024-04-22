@@ -1,6 +1,6 @@
 # 4.2.4.8 Sélectionner les commandes dont le produit est soit une 'Table', soit un 'Bureau'.
 
-Voilà la requête correspondante pour réaliser l'opération.
+Voici la requête correspondante pour réaliser l'opération.
 
 ```sql
 SELECT * FROM Commandes WHERE Produit IN ('Table', 'Bureau');
