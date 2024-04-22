@@ -6,6 +6,8 @@ Voici la requête correspondante pour réaliser l'opération.
 SELECT * FROM commandes WHERE Produit LIKE 'C%';
 ```
 
+Voici le résulat de la requête :
+
 | Commande_id | Client_nom | Produit | Quantité | Prix_Unitaire | Date_commande | Ville_livraison | Catégorie_produit |
 | ----------- | ---------- | ------- | -------- | ------------- | ------------- | --------------- | ----------------- |
 | 1           | Léa        | Chaise  | 2        | 25            | 2023-04-12    | Paris           | Mobilier          |
