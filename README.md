@@ -1,6 +1,6 @@
 # 4.2.4.1 Sélectionner toutes les commandes avec un prix unitaire supérieur à 20 €
 
-Voici la requête conrrespondante pour réaliser l'opération.
+Voici la requête correspondante pour réaliser l'opération.
 
 ```sql
 SELECT * FROM Commandes WHERE Prix_Unitaire > 20;
