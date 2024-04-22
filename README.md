@@ -1,6 +1,6 @@
 # 4.2.4.6 Sélectionner les commandes dont la quantité est supérieure à 1, triées par date de commande de manière ascendante.
 
-Voilà la requête correspondante pour réaliser l'opération.
+Voici la requête correspondante pour réaliser l'opération.
 
 ```sql
 SELECT * FROM Commandes WHERE Quantité > 1 ORDER BY Date_commande ASC;
