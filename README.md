@@ -3,7 +3,7 @@
 Voilà la requête correspondante pour réaliser l'opération.
 
 ```sql
-SELECT * FROM commandes WHERE Produit IN ('Table', 'Bureau');
+SELECT * FROM Commandes WHERE Produit IN ('Table', 'Bureau');
 ```
 
 Voici le résultat de la requête :
