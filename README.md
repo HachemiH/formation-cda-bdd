@@ -5,3 +5,9 @@ Voilà la requête conrrespondante pour réaliser l'opération.
 ```sql
 SELECT Client_nom, Produit FROM commandes WHERE Produit LIKE 'C%';
 ```
+
+| Client_nom | Produit |
+| ---------- | ------- |
+| Marc       | Clavier |
+| Léa        | Chaise  |
+| Marc       | Chaise  |
