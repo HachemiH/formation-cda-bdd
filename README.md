@@ -1,7 +1,7 @@
-# 4.2.4.2 Sélectionner les commandes de la catégorie 'Mobilier', triées par prix unitaire de manière descendante.
+# 4.2.4.3 Sélectionner toutes les commandes livrées à 'Paris' qui ne sont pas de la catégorie 'Électronique'.
 
 Voilà la requête conrrespondante pour réaliser l'opération.
 
 ```sql
-SELECT * FROM commandes WHERE Catégorie_produit = 'Mobilier' ORDER BY Prix_Unitaire DESC;
+SELECT * FROM commandes WHERE Ville_livraison = 'Paris' AND Catégorie_produit != 'Électronique';
 ```
