@@ -3,7 +3,7 @@
 Voici la requête correspondante pour réaliser l'opération.
 
 ```sql
-SELECT * FROM commandes WHERE Produit LIKE 'C%';
+SELECT * FROM Commandes WHERE Produit LIKE 'C%';
 ```
 
 Voici le résulat de la requête :
