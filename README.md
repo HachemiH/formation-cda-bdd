@@ -1,7 +1,7 @@
-# 4.2.4.4 Sélectionner les commandes passées entre le 1er avril 2023 et le 30 juin 2023.
+# 4.2.4.5 Sélectionner les noms des clients et les produits commandés, pour les commandes contenant des produits dont le nom commence par 'C'.
 
 Voilà la requête conrrespondante pour réaliser l'opération.
 
 ```sql
-SELECT * FROM commandes WHERE Date_commande BETWEEN '2023-04-01' AND '2023-06-30';
+SELECT Client_nom, Produit FROM commandes WHERE Produit LIKE 'C%';
 ```
