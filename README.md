@@ -43,7 +43,3 @@
 ### [5.3 Création et Gestion des Bases de Données](./module-5-postgresql/5.3-creation-gestion-bdd-postgresql.md)
 ### 5.4 Utilisation des Commandes SQL Basiques dans PostgreSQL
 ### 5.5 Fonctions Avancées et Procédures Stockées
-### 5.6 Sécurité des Bases de Données avec PostgreSQL
-  - 5.6 Authentification et Autorisations
-  - 5.6 Prévention des Injections SQL
-  - 5.6 Sauvegarde et Restauration
