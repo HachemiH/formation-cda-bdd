@@ -42,5 +42,6 @@
 ### [5.2 Connexion et Gestion des Utilisateurs dans PostgreSQL](./module-5-postgresql/5.2-connexion-gestion-utilisateurs-postgresql.md)
 ### [5.3 Création et Gestion des Bases de Données](./module-5-postgresql/5.3-creation-gestion-bdd-postgresql.md)
 ### [5.4 Métacommandes PostgreSQL](./module-5-postgresql/5.4-metacommandes-postgresql.md)
-### [5.5 Utilisation des Commandes SQL Basiques dans PostgreSQL]()
-### [5.6 Fonctions Avancées et Procédures Stockées]()
+### 5.5 Utilisation des Commandes SQL Basiques dans PostgreSQL
+### 5.6 Fonctions Avancées et Procédures Stockées
+
