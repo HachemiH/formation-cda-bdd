@@ -43,5 +43,5 @@
 ### [5.3 Création et Gestion des Bases de Données](./module-5-postgresql/5.3-creation-gestion-bdd-postgresql.md)
 ### [5.4 Métacommandes PostgreSQL](./module-5-postgresql/5.4-metacommandes-postgresql.md)
 ### [5.5 Utilisation des Commandes SQL Basiques dans PostgreSQL](./module-5-postgresql/5.5-commandes-basiques-sql-postgresql.md)
-### 5.6 Fonctions Avancées et Procédures Stockées
+### [5.6 Fonctions Avancées et Procédures Stockées](./module-5-postgresql/5.6-procedures-stockees-requetes-preparees-postgresql.md)
 
